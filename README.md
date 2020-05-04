@@ -11,7 +11,7 @@ Supported platforms:
   Android 4.4 and above
 ```
 
-### Players & SDKs integrated: 
+#### Players & SDKs integrated: 
 ```
   ExoPlayer
   Google Ad IMA SDK
