@@ -1,4 +1,4 @@
-# Conviva Android: "Reference App" + "Documentation" Project
+# Conviva Android: "Reference App" + "Documentation" 
 
 Welcome to the Conviva Android Sensor Integration!
 
