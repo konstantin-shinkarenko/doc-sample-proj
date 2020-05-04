@@ -11,13 +11,13 @@ Supported platforms:
   Android 4.4 and above
 ```
 
-Players & SDKs integrated: 
+### Players & SDKs integrated: 
 ```
   ExoPlayer
   Google Ad IMA SDK
   (here extend the list : include NexPlayer, ExoPlayerImpl or whatever as yet another reference)
 ```
-Reference App follows hybrid architecture with two main layers as below:
+### Reference App follows hybrid architecture with two main layers as below:
 ```
   UI layer (conviva-react-native-refapp): This layer is developed using cross platform React Native framework.
   Responsibilities of this layer includes:
@@ -29,9 +29,9 @@ Reference App follows hybrid architecture with two main layers as below:
     Video player functionality (playback of content)
     Conviva Integration
 ```
-Getting Started
+## Getting Started
 
-Prerequisites:
+### Prerequisites:
 ```
 Laptop/Desktop running with Mac/Ubuntu/Windows OS
 
@@ -46,7 +46,7 @@ Github account
     Setup ssh keys in github to checkout the code seamlessly.
         How to setup? - Setup Guide
 ```              
-For development & testing:
+### For development & testing:
 ```
 git clone git@github.com:Conviva/conviva-android-reference-app.git
 cd conviva-android-reference-app/
