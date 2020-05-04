@@ -6,7 +6,9 @@ Welcome to the Conviva Android Sensor Integration!
 For the integration instriuctions please go to: [Conviva Android Documentation Wiki](https://github.com/konstantin-shinkarenko/doc-sample-proj/wiki)
 
 ### Reference app
-Reference Application is designed and developed to ease the integration of Conviva analytics in to streaming applications with less effort. This application is designed similar to customer applications to easily correlate with the customer app features. It is a project with detailed code snippets on how to integrate Conviva analytics.
+The Reference Application illustrates integration of Conviva analytics into video applications. 
+This application follows common design principles to provide easily transferable code to be used by customers. 
+It is a rich feature set and full user experience app, aimed to help integrating Conviva analytics.
 
 Supported platforms: 
 ```
