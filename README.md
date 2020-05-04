@@ -14,9 +14,8 @@ Supported platforms:
 Players & SDKs integrated: 
 ```
   ExoPlayer
-  NexPlayer
-  Freewheel SDK
-  Google Ad SDK
+  Google Ad IMA SDK
+  (here extend the list : include NexPlayer, ExoPlayerImpl or whatever as yet another reference)
 ```
 Reference App follows hybrid architecture with two main layers as below:
 ```
@@ -89,4 +88,7 @@ JavaScript (React Native)
 Android
 Java
 ```
-
+Questions and requests? Please contact us: 
+```
+team.devices@conviva.com
+```
