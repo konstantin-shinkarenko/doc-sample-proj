@@ -30,6 +30,63 @@ Reference App follows hybrid architecture with two main layers as below:
     Video player functionality (playback of content)
     Conviva Integration
 ```
-  
+Getting Started
 
+Prerequisites:
+```
+Laptop/Desktop running with Mac/Ubuntu/Windows OS
+
+Android Studio
+
+Github account
+    Access to https://github.com/Conviva/
+    Read access to below repos
+        https://github.com/Conviva/conviva-android-reference-app
+        https://github.com/Conviva/conviva-react-native-refapp
+        
+    Setup ssh keys in github to checkout the code seamlessly.
+        How to setup? - Setup Guide
+```              
+For development & testing:
+```
+git clone git@github.com:Conviva/conviva-android-reference-app.git
+cd conviva-android-reference-app/
+run the below scripts
+    sh evnSetup.sh (if npm is not already installed)
+    sh projSetup.sh
+```
+
+Setup Guide:
+```
+This project requires command line tools - npm,react native cli and Android Studio to be installed on development machine.
+```
+
+Projects & Submodules:
+```
+Conviva-android-reference-app:-  This is the project repo for android reference.
+Native:- This folder cotains the android bridge for react native.
+Submodule:
+    conviva-react-native-refapp:- This project contains UI layer written using cross platform React native framework.
+```
+Installation:
+```
+In order to install application,
+Connect Android phone/emulator/firetv
+Build & Run the application using Android Studio.
+```
+
+Conviva Integration classes:
+```
+    CVABaseEIIntegrationRef.java & ExoPlayerEventListener.java: illustrates main content integration using ExoPlayer as a reference.
+
+    CVABaseAIIntegrationRef.java & GoogleIma.java: source code illustrating integration of Ad events using Google IMA SDK as a reference.
+
+   ??? CVABaseCIIntegrationRef.java: These files contain code for handling Conviva Content Insights integration. We are recommending to include these files in your project and modify only if needed. ???
+```
+Built With
+```
+JavaScript (React Native)
+Android
+Java
+```
 
