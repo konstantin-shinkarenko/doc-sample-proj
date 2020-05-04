@@ -1,9 +1,11 @@
 # Conviva Android: "Reference App" + "Documentation" Project
+
 Welcome to the Conviva Android Sensor Integration!
 
+### Documentation
 For the integration instriuctions please go to: [Conviva Android Documentation Wiki](https://github.com/konstantin-shinkarenko/doc-sample-proj/wiki)
 
-
+### Reference app
 Reference Application is designed and developed to ease the integration of Conviva analytics in to streaming applications with less effort. This application is designed similar to customer applications to easily correlate with the customer app features. It is a project with detailed code snippets on how to integrate Conviva analytics.
 
 Supported platforms: 
@@ -17,7 +19,8 @@ Supported platforms:
   Google Ad IMA SDK
   (here extend the list : include NexPlayer, ExoPlayerImpl or whatever as yet another reference)
 ```
-### Reference App follows hybrid architecture with two main layers as below:
+#### Reference app architecture:
+Reference App follows hybrid architecture with two main layers as below:
 ```
   UI layer (conviva-react-native-refapp): This layer is developed using cross platform React Native framework.
   Responsibilities of this layer includes:
@@ -31,7 +34,7 @@ Supported platforms:
 ```
 ## Getting Started
 
-### Prerequisites:
+#### Prerequisites:
 ```
 Laptop/Desktop running with Mac/Ubuntu/Windows OS
 
@@ -46,7 +49,7 @@ Github account
     Setup ssh keys in github to checkout the code seamlessly.
         How to setup? - Setup Guide
 ```              
-### For development & testing:
+#### For development & testing:
 ```
 git clone git@github.com:Conviva/conviva-android-reference-app.git
 cd conviva-android-reference-app/
@@ -55,7 +58,7 @@ run the below scripts
     sh projSetup.sh
 ```
 
-Setup Guide:
+#### Setup Guide:
 ```
 This project requires command line tools - npm,react native cli and Android Studio to be installed on development machine.
 ```
@@ -67,14 +70,14 @@ Native:- This folder cotains the android bridge for react native.
 Submodule:
     conviva-react-native-refapp:- This project contains UI layer written using cross platform React native framework.
 ```
-Installation:
+#### Installation:
 ```
 In order to install application,
 Connect Android phone/emulator/firetv
 Build & Run the application using Android Studio.
 ```
 
-Conviva Integration classes:
+#### Conviva Integration classes:
 ```
     CVABaseEIIntegrationRef.java & ExoPlayerEventListener.java: illustrates main content integration using ExoPlayer as a reference.
 
@@ -82,13 +85,14 @@ Conviva Integration classes:
 
    ??? CVABaseCIIntegrationRef.java: These files contain code for handling Conviva Content Insights integration. We are recommending to include these files in your project and modify only if needed. ???
 ```
-Built With
+#### Built With
 ```
 JavaScript (React Native)
 Android
 Java
 ```
-Questions and requests? Please contact us: 
+## Questions and requests? 
+Please contact us: 
 ```
 team.devices@conviva.com
 ```
