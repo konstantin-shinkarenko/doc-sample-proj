@@ -13,14 +13,14 @@ Supported platforms:
 ```
 
 Players & SDKs integrated: 
-
+```
   ExoPlayer
   NexPlayer
   Freewheel SDK
   Google Ad SDK
-
+```
 Reference App follows hybrid architecture with two main layers as below:
-
+```
   UI layer (conviva-react-native-refapp): This layer is developed using cross platform React Native framework.
   Responsibilities of this layer includes:
     UI Rendering
@@ -30,7 +30,7 @@ Reference App follows hybrid architecture with two main layers as below:
   Responsibilities of this layer includes:
     Video player functionality (playback of content)
     Conviva Integration
-
+```
   
 
 
